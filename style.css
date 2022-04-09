@@ -1,36 +1,30 @@
 /* Global */
 :root {
     /* Color */
-    --color-white: #ffffff;
-    --color-light-white: #eeeeee;
-    --color-dark-white: #bdbdbd;
-    --color-pink: #fe918d;
-    --color-dark-pink: #ff6863;
-    --color-black: #4d4d4d;
-    --color-dark-grey: #4d4d4d;
-    --color-grey: #616161;
-    --color-light-grey: #7c7979;
-    --color-blue: #73aace;
-    --color-yellow: #fff7d1;
-    --color-orange: #feb546;
+    --color-white: #FFFFFF;
     --color-black: #000000;
+    --color-dark-blue:#007DB2;
+    --color-dark-grey: #707070;
+    --color-light-white: #F2F2F2;
+    --color-grey: #A4ADB3;
+    --color-blue: #009EE3;
+    --color-petrol: #0D5C7E;
+    --color-light-grey:#f8f4f4cb;
+   
    /* Font size */
-   --font-large: 48px;
-   --font-medium: 28px;
-   --font-regular: 18px;
-   --font-small: 16px;
-   --font-micro: 14px;
+   --font-large: 50px;
+   --font-medium: 30px;
+   --font-regular: 22px;
+   --font-reguar-small:20px;
+   --font-small: 14px;
+   --font-micro: 12px;
  
    /* Font weight */
    --weight-bold: 700;
+   --weight-extra:800;
    --weight-semi-bold: 600;
    --weight-regular: 400;
  
-   /* Size */
-   --size-border-radius: 4px;
- 
-   /* Annimation */
-   --animation-duration: 300ms;
  }
  /* Universal tags */
 * {
@@ -38,39 +32,20 @@
   }
   
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: open sans;
     margin: 0;
   }
   
   a {
-    text-decoration: none;
-    /* color: var(--color-white); */
+    text-decoration: none; 
+    
   }
   
-  ul {
-    padding-left: 0;
-  }
   
-  li {
-    list-style: none;
-  }
-  
-  /* button {
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-    outline: none;
-  }
-   */
-
-
-
-
+/* Navbar */
 
 .navbar__logo img {
-    /* font-size: var(--font-medium);
-    font-weight: var(--weight-semi-bold); */
-    width:10%;
-    height:10%;
+    width:5%;
+    height:5%;
  
   }
